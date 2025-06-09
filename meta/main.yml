@@ -41,18 +41,24 @@ galaxy_info:
         - bullseye
         - bookworm
         - trixie
+<<<<<<< HEAD
     # This Ansible role only supports Debian-based platforms for now.
     # - name: Fedora
     #   versions:
     #     - "39"
     #     - "40"
     #     - "41"
+=======
+    - name: Fedora
+      versions:
+        - "41"
+        - "42"
+>>>>>>> 54e395efa2409780c0574d266fe68bce1c9b7060
     - name: Kali
       versions:
         - "2023"
     - name: Ubuntu
       versions:
-        - focal
         - jammy
         - noble
   role_name: assessment_tool

@@ -255,13 +255,17 @@ jobs:
           - debian11-systemd
           - debian12-systemd
           - debian13-systemd
+<<<<<<< HEAD
           # This Ansible role only supports Debian-based platforms for
           # now.
           # - fedora39-systemd
           # - fedora40-systemd
           # - fedora41-systemd
+=======
+          - fedora41-systemd
+          - fedora42-systemd
+>>>>>>> 54e395efa2409780c0574d266fe68bce1c9b7060
           - kali-systemd
-          - ubuntu-20-systemd
           - ubuntu-22-systemd
           - ubuntu-24-systemd
         scenario:
